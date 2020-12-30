@@ -1,4 +1,4 @@
-# Andreas Westrell 2020
+# Andreas 2020
 #
 #
 
@@ -10,7 +10,7 @@ version = 0.1
 
 # -------------------------------------------
 def About():
-	messagebox.showinfo("About","Text Editor V " + str(version) + " \n 2020 By Andreas")
+	messagebox.showinfo("About","Text Editor V " + str(version) +"\n2020 By Andreas")
 
 
 # ------------------ Main program starts here -------------------------
