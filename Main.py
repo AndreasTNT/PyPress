@@ -10,7 +10,7 @@ version = 0.1
 
 # -------------------------------------------
 def About():
-	messagebox.showinfo("About","@Text Editor Version: " + str(version) + " \n2020\nBy Andreas .")
+	messagebox.showinfo("About","Text Editor V " + str(version) + " \n 2020 By Andreas")
 
 
 # ------------------ Main program starts here -------------------------
@@ -22,7 +22,7 @@ root.geometry("500x250")
 # create a pulldown menu, and add it to the menu bar
 menubar = Menu(root)
 filemenu = Menu(menubar, tearoff=0)
-filemenu.add_command(label="Save", command=Save)
+filemenu.add_command(label="Save")
 filemenu.add_separator()
 filemenu.add_command(label="Exit", command=root.quit)
 menubar.add_cascade(label="File", menu=filemenu)
