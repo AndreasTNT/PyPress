@@ -1,3 +1,3 @@
-# TextEditor
-A text editor written in Python.
-#### (Not final)
+# PyPress
+PyPress is a in-development, proof of concept word processer.
+Written in python
