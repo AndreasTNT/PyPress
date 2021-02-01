@@ -15,6 +15,14 @@ Used to edit and view different document formats
 * *None at the time* :disappointed:
 ## Credits :bulb:
 * **Andreas Westrell** - *Main Author* - [AndreasTNT](https://github.com/AndreasTNT)
+
+<!-- Copy-paste in your Readme.md file -->
+
+<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo = GitHub_username/repository_name"/>
+</a>
+
+Made with [contributors-img](https://contrib.rocks).
 ## License
 PyPress is licensed under a GPL-3.0 license. \
 See [License agreement :page_facing_up:](LICENSE)  
