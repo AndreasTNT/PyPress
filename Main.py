@@ -8,11 +8,12 @@ from tkinter import messagebox
 
 version = 0.1
 
-# -------------------------------------------
+### Definitions
 def About():
 	messagebox.showinfo("About","Word processor " + str(version) +"\n2020 By Andreas Westrell")
 
-
+def Check_wordwrap():
+	Wordwrap.get() 
 # ------------------ Main program starts here -------------------------
 #"WindowCreater"
 root = Tk()
@@ -30,7 +31,7 @@ helpmenu = Menu(menubar, tearoff=0)
 menubar.add_cascade(label="File", menu=filemenu)
 menubar.add_cascade(label= "Edit", menu=editmenu)
 menubar.add_cascade(label= "Format", menu=formatmenu)
-menubar.add_cascade(label= "View", menu=viewmenu)
+# menubar.add_cascade(label= "View", menu=viewmenu)
 menubar.add_cascade(label="Help", menu=helpmenu)
 
 ### Menus
@@ -58,10 +59,12 @@ editmenu.add_command(label="Select All")
 editmenu.add_command(label="Time/Date")
 # Format menu
 formatmenu.add_checkbutton(Text="Word Wrap", Variable=Wordwrap, onvalue=1, offvalue=0, command=Check_wordwrap)
-formatmenu.add_command(label="")
+
+# TODO FONT formatmenu.add_command(label="Font", command=Font)
+
 # View menu
 # Help menu
-helpmenu.add_command(label="About", command=About)
+helpmenu.add_command(label="About PyPress", command=About)
 
 
 # display the menu
