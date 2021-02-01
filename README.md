@@ -4,15 +4,17 @@
 
 PyPress is a in-development, proof of concept word processor. \
 Written in Python with the Tkinter binding \
-Designed to be used for all types of document formats
+Designed to be easy to use and to view document formats
 
 ## Installation
 * Clone this repo
-* Open the local repo in a editor
+* Open :open_file_folder: the local repo in a editor
 ## Usage
-## Credits
+Used to edit and view different document formats
+## Supported document formats :page_facing_up:
+* *None at the time* :disappointed:
+## Credits :bulb:
 * **Andreas Westrell** - *Main Author* - [AndreasTNT](https://github.com/AndreasTNT)
 ## License
-PyPress is licensed under a GPL-3.0 license. 
-See [License agreement](LICENSE)  
-
+PyPress is licensed under a GPL-3.0 license. \
+See [License agreement :page_facing_up:](LICENSE)  
