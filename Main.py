@@ -1,23 +1,25 @@
-# Andreas Westrell 2020
-#
-#
+# Andreas Westrell 2021
+
 
 from tkinter import *
 from tkinter import messagebox
+
 
 
 version = 0.1
 
 ### Definitions
 def About():
-	messagebox.showinfo("About","Word processor " + str(version) +"\n2020 By Andreas Westrell")
+	messagebox.showinfo("About","PyPress " + str(version) +"\n2021 By Andreas Westrell")
 
-def Check_wordwrap():
-	Wordwrap.get() 
+# Wordwrap
+# Figure out how to do 'Wordwrap = Tk.IntVar()'
+# def Check_wordwrap():
+# 	Wordwrap.get() 
+
 # ------------------ Main program starts here -------------------------
-#"WindowCreater"
 root = Tk()
-root.title("Word processor")
+root.title("PyPress")
 root.geometry("500x250")
 
 ### Menu bar and define extra menus
@@ -37,10 +39,8 @@ menubar.add_cascade(label="Help", menu=helpmenu)
 ### Menus
 # File menu
 filemenu.add_command(label="New")
-filemenu.add_command(label="New Window")
 filemenu.add_command(label="Open")
 filemenu.add_command(label="Save")
-filemenu.add_command(label="Save as")
 filemenu.add_separator()
 filemenu.add_command(label="Exit", command=root.quit)
 # Edit menu
@@ -58,7 +58,8 @@ editmenu.add_separator()
 editmenu.add_command(label="Select All")
 editmenu.add_command(label="Time/Date")
 # Format menu
-formatmenu.add_checkbutton(Text="Word Wrap", Variable=Wordwrap, onvalue=1, offvalue=0, command=Check_wordwrap)
+# Figure out how to do format menu and wordwrap checkbutton
+# formatmenu.add_checkbutton(Text="Word Wrap", Variable=Wordwrap, onvalue=1, offvalue=0, command=Check_wordwrap)
 
 # TODO FONT formatmenu.add_command(label="Font", command=Font)
 
