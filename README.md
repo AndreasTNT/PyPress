@@ -18,8 +18,8 @@ Used to edit and view different document formats
 
 <!-- Copy-paste in your Readme.md file -->
 
-<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = GitHub_username/repository_name"/>
+<a href = "https://github.com/AndreasTNT/PyPress/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo = AndreasTNT/PyPress"/>
 </a>
 
 Made with [contributors-img](https://contrib.rocks).
