@@ -14,5 +14,5 @@ Designed to be used for all types of document formats
 * **Andreas Westrell** - *Main Author* - [AndreasTNT](https://github.com/AndreasTNT)
 ## License
 PyPress is licensed under a GPL-3.0 license. 
-See [License agreement](license)  
+See [License agreement](LICENSE)  
 
