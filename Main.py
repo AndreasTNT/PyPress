@@ -13,9 +13,9 @@ def About():
 	messagebox.showinfo("About","PyPress " + str(version) +"\n2021 By Andreas Westrell")
 
 # ------------------ Main program starts here -------------------------
-root = Tk()
-root.title("PyPress")
-root.geometry("600x480")
+
+Tk.title("PyPress")
+tk.geometry("600x480")
 
 
 mainloop()
