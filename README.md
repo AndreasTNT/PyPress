@@ -3,7 +3,7 @@
 # PyPress
 
 PyPress is a in-development, proof of concept word processor. \
-Written in Python with the Tkinter binding \
+Written in Python with the Qt5 binding \
 Designed to be easy to use and to view document formats
 
 ## Installation
