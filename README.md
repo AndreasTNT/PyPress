@@ -32,7 +32,8 @@ These dependencies must be present before building
  You can install these on a Ubuntu-based system by executing this command:
 
  `sudo apt install python3 ` \
- `sudo pip install pyside6 `
+ `sudo apt install python3-pip`
+ `pip3 install pyside6 `
 
 ### Executing
 ```
