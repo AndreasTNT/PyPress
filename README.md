@@ -1,6 +1,4 @@
 <!-- PyPress Readme WIP --> 
-< 
-
 
 <div>
   <h1 align="center">Pypress</h1>
