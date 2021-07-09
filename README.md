@@ -1,32 +1,27 @@
-<!-- PyPress Readme WIP --> 
+# PyPress
+## A simple word processor
 
-<div>
-  <h1 align="center">Pypress</h1>
-  <h3 align="center">A simple word processor</h3>
-</div>
-
-<br/>
 Open, edit and view different text formats.
 
 
-## Installation
+### Installation
 
-### Dependencies
-These dependencies must be present before building
+## Dependencies
+These dependencies must be present on the system before running
  - `python 3.0+`
  - `pyside6+`
  
- You can install these on a Ubuntu-based system by executing this command:
+You can install these on a APT-based system by executing these commands:
 
- `sudo apt install python3 ` \
- `sudo apt install python3-pip` \
- `pip3 install pyside6 `
+`sudo apt install python3 ` \
+`sudo apt install python3-pip` \
+`pip3 install pyside6 `
 
-### Executing
-```
-sudo python main.py
-```
+### Running
+    ```
+    sudo python main.py
+    ```
 
 ### License
-PyPress is licensed under a GPL-3.0 license. \
-See [License agreement :page_facing_up:](LICENSE)  
+   PyPress is licensed under a GPL-3.0 license. \
+   See [License agreement :page_facing_up:](LICENSE)  
