@@ -1,8 +1,8 @@
 # PyPress
 
-A simple word processor
+A simple text editor
 
-Open, edit and view different text formats.
+View, open and edit.
 
 Mainly a way to see what I can make.
 
