@@ -1,11 +1,10 @@
 # PyPress
 
-A simple text editor
+A simple plain text editor
 
 View, open and edit.
 
-Mainly a way to see what I can make.
-
+See the wiki for more info.
 
 PyPress is built under a GPL-3.0 license. \
 See [License agreement](LICENSE)  
